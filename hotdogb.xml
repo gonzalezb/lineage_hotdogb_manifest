@@ -8,7 +8,7 @@
 	
     <remote name="device"
             fetch="https://github.com"
-            revision="rr"/>
+            revision="eleven"/>
 
     <remote name="devicecommon"
             fetch="https://github.com"
