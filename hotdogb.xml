@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="lineage-17.1" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="lineage-17.1"/>
+
+    <remote name="devicecommon"
+            fetch="https://github.com"
+            revision="lineage-17.1"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="lineage-17.1"/>
+
+    <remote name="common"
+            fetch="https://github.com"
+            revision="lineage-17.1"/>
+
+    <!--Device Trees-->
+    <project path="device/oneplus/hotdogb" name="gonzalezb/device_oneplus_hotdogb" remote="device" />
+
+    
+    <!--Device Common Trees-->
+    <project path="device/oneplus/sm8150-common" name="gonzalezb/android_device_oneplus_sm8150-common" remote="devicecommon" />
+
+
+    <!--Common device drivers-->
+    <project path="device/oneplus/common" name="gonzalezb/device_oneplus_common" remote="common" />
+
+
+    <!--Kernel-->
+    <project path="kernel/oneplus/hotdogb" name="gonzalezb/android_kernel_oneplus_sm8150" remote="kernel" />
+
+
+    <!--Kernel-->
+    <project path="kernel/oneplus/sm8150" name="gonzalezb/android_kernel_oneplus_sm8150" remote="kernel" />
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/oneplus" name="gonzalezb/vendor_oneplus" remote="vendor" />
+</manifest>
