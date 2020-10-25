@@ -4,19 +4,19 @@
 
     <remote name="vendor"
             fetch="https://github.com"
-            revision="lineage-17.1" />
+            revision="ten" />
 	
     <remote name="device"
             fetch="https://github.com"
-            revision="lineage-17.1"/>
+            revision="rr"/>
 
     <remote name="devicecommon"
             fetch="https://github.com"
-            revision="lineage-17.1"/>
+            revision="hotdogb-7T"/>
 
     <remote name="kernel"
             fetch="https://github.com"
-            revision="lineage-17.1"/>
+            revision="stable"/>
 
     <remote name="common"
             fetch="https://github.com"
@@ -35,11 +35,11 @@
 
 
     <!--Kernel-->
-    <project path="kernel/oneplus/hotdogb" name="gonzalezb/android_kernel_oneplus_sm8150" remote="kernel" />
+    <project path="kernel/oneplus/hotdogb" name="gonzalezb/kernel_oneplus_sm8150" remote="kernel" />
 
 
     <!--Kernel-->
-    <project path="kernel/oneplus/sm8150" name="gonzalezb/android_kernel_oneplus_sm8150" remote="kernel" />
+    <project path="kernel/oneplus/sm8150" name="gonzalezb/kernel_oneplus_sm8150" remote="kernel" />
 
 
     <!-- Vendor folders -->
